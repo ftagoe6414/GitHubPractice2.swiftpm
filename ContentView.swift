@@ -6,6 +6,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("Enter a Number", value: $number2, format: .number)
+            
+            TextField("Enter a Number", value: $number1, format: .number)
         }
     }
 }
